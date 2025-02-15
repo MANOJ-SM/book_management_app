@@ -1,2 +1,9 @@
 
-routing : Routing in React allows you to navigate between different pages (or views) in a single-page application (SPA) without needing a full page reload. React handles routing using a library called React Router.
+routing : Routing in React allows you to navigate between different pages (or views) in a single-page application (SPA) without needing a full page reload. React handles routing using a library called React Router or react router dom.
+
+react router dom provide many router but recommended router is createBrowserRouter 
+
+
+import { Link } from 'react-router-dom';
+
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';

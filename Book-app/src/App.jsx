@@ -1,6 +1,7 @@
 import BookList from "./components/BookList";
 import { Books } from "./utils/mockData";
 import "./components/style.css";
+import Header from "./components/Header";
 import { useState } from "react";
 
 
@@ -20,7 +21,8 @@ function App() {
 
    return (
      <>
-      <h1>Book Management App</h1>
+      {/* <h1>Book Management App</h1> */}
+      <Header />
        <div className="search" >
          <h2>Search Books</h2>
          <div>
@@ -33,7 +35,6 @@ function App() {
 
          </div>
        </div>
-
        <BookList Booksdata={filteredBooks} />
      </>
    )
